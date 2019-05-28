@@ -1,0 +1,16 @@
+PODS:
+  - SwipeUpView (1.3.0)
+
+DEPENDENCIES:
+  - SwipeUpView (from `../`)
+
+EXTERNAL SOURCES:
+  SwipeUpView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwipeUpView: 99288e42f42e6438fa5f703949db7c47b02d2487
+
+PODFILE CHECKSUM: c82a5ab04da24770e412b3156bcb7847132c3ee1
+
+COCOAPODS: 1.4.0
