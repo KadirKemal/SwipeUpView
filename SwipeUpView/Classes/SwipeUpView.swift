@@ -12,6 +12,7 @@ public class SwipeUpView: UIView  {
     private var isHeaderButtonDirectionToTop = true
     private var activeIndex = 0
     private var isOpen = false
+    private var gestureToDown: Bool?
     
     private weak var mainView : UIView?
     
@@ -65,7 +66,7 @@ public class SwipeUpView: UIView  {
         guard let mainView = self.mainView else {  return }
         
         if recognizer.state == .ended {
-            let index = findNewHeightPercentageIndex()
+            let index = findNewHeightPercentageIndex(gestureToDown: gestureToDown)
             adjustHeaderButtonDirection(index: index)
             self.adjustMyHeight(heigthIndex: index);
         }
@@ -73,6 +74,8 @@ public class SwipeUpView: UIView  {
         //mainView.bringSubview(toFront: self)
         
         let translationRec = recognizer.translation(in: mainView)
+        gestureToDown = translationRec.y > 0 ? true : translationRec.y < 0 ? false : nil
+        print("KKD \(translationRec.y)")
         self.center = CGPoint(x: self.center.x , y: self.center.y + translationRec.y)
         
         var f = self.frame;
@@ -109,6 +112,29 @@ public class SwipeUpView: UIView  {
         
         adjustMyHeight(heigthIndex: setupNewIndexForIndex(index: stateHeightPercentages.count - 1))
         isHeaderButtonDirectionToTop = false
+    }
+    
+    
+    private func findNewHeightPercentageIndex(gestureToDown: Bool?) -> Int{
+        let index = findNewHeightPercentageIndex()
+        
+        guard let gestureToDown = gestureToDown else {
+            return index
+        }
+        
+        if index == activeIndex {
+            return index
+        }
+        
+        if activeIndex < index && gestureToDown {
+            return index - 1
+        }
+        
+        if activeIndex > index && !gestureToDown {
+            return index + 1
+        }
+        
+        return index
     }
     
     
