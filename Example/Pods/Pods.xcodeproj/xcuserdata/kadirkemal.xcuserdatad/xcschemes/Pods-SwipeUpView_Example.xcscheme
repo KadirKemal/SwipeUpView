@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1020"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36D2E6D6A17828C3467993F201404DC0"
+               BlueprintIdentifier = "F3A0AEB5BE4752B02A7405F5989203CC"
                BuildableName = "Pods_SwipeUpView_Example.framework"
                BlueprintName = "Pods-SwipeUpView_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36D2E6D6A17828C3467993F201404DC0"
+            BlueprintIdentifier = "F3A0AEB5BE4752B02A7405F5989203CC"
             BuildableName = "Pods_SwipeUpView_Example.framework"
             BlueprintName = "Pods-SwipeUpView_Example"
             ReferencedContainer = "container:Pods.xcodeproj">

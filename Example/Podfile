@@ -3,10 +3,11 @@ use_frameworks!
 target 'SwipeUpView_Example' do
     
     pod 'SwipeUpView', :path => '../'
-
-  target 'SwipeUpView_Tests' do
-    inherit! :search_paths
-
     
-  end
+    target 'SwipeUpView_Tests' do
+        inherit! :search_paths
+        
+        
+    end
 end
+

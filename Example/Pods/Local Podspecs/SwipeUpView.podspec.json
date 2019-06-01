@@ -10,8 +10,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Kadir Kemal Dursun": "kkdursun@yahoo.com",
-    "Yusuf Çınar": "yusuf.cinar@zingat.com"
+    "Kadir Kemal Dursun": "kkdursun@yahoo.com"
   },
   "source": {
     "git": "https://github.com/KadirKemal/SwipeUpView.git",

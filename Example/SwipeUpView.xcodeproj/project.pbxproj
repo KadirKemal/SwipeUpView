@@ -17,8 +17,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		898DF6B3B23557600DC3027D /* Pods_SwipeUpView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 780F0B54B1B6B918E9CEF62B /* Pods_SwipeUpView_Example.framework */; };
-		E3405F225B376FC2C1950110 /* Pods_SwipeUpView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5D81EE6AEDE5FCFF6FABE4 /* Pods_SwipeUpView_Tests.framework */; };
+		A626DD53FF1021AF186ECCFB /* Pods_SwipeUpView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638C5369160582C7AB16A67F /* Pods_SwipeUpView_Tests.framework */; };
+		DA3B8D4109FFAF23D6D8188A /* Pods_SwipeUpView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56170295A0A16BB8E479C222 /* Pods_SwipeUpView_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		036F3836292300DC17042BD5 /* Pods-SwipeUpView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeUpView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeUpView_Tests/Pods-SwipeUpView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		071E9DAF20EA199B000DED6F /* BottomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
 		074A1EC120E61EBF002464DE /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 		07C1412D20EA5C6500F4845E /* SwipeUpView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = SwipeUpView.gif; path = ../SwipeUpView.gif; sourceTree = "<group>"; };
 		07C1412E20EA5C6500F4845E /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = ../CHANGELOG.md; sourceTree = "<group>"; };
-		2B5D81EE6AEDE5FCFF6FABE4 /* Pods_SwipeUpView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeUpView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAAE24F338D74787CFC5472 /* Pods-SwipeUpView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeUpView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SwipeUpView_Tests/Pods-SwipeUpView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56170295A0A16BB8E479C222 /* Pods_SwipeUpView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeUpView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SwipeUpView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeUpView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,13 +48,13 @@
 		607FACE51AFB9204008FA782 /* SwipeUpView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeUpView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		638C5369160582C7AB16A67F /* Pods_SwipeUpView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeUpView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E4064B11E634E3F967B704 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		780F0B54B1B6B918E9CEF62B /* Pods_SwipeUpView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwipeUpView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		79C6A367B5F50E57F3807368 /* Pods-SwipeUpView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeUpView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeUpView_Tests/Pods-SwipeUpView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7FF0A860C28E5A46DB2AF5EA /* Pods-SwipeUpView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeUpView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeUpView_Example/Pods-SwipeUpView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		72A14A9962C771606358B120 /* Pods-SwipeUpView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeUpView_Tests.release.xcconfig"; path = "Target Support Files/Pods-SwipeUpView_Tests/Pods-SwipeUpView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8A2E3BFECC1A3B0F80A911EF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A633CB9628D6C101F88AE8FA /* SwipeUpView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwipeUpView.podspec; path = ../SwipeUpView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F08144C3214C744BDB71854D /* Pods-SwipeUpView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeUpView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwipeUpView_Example/Pods-SwipeUpView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D069ED344863DBF5D8C20A71 /* Pods-SwipeUpView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeUpView_Example.debug.xcconfig"; path = "Target Support Files/Pods-SwipeUpView_Example/Pods-SwipeUpView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D7FCD2C2B2B0C42F74F960EC /* Pods-SwipeUpView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwipeUpView_Example.release.xcconfig"; path = "Target Support Files/Pods-SwipeUpView_Example/Pods-SwipeUpView_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				898DF6B3B23557600DC3027D /* Pods_SwipeUpView_Example.framework in Frameworks */,
+				DA3B8D4109FFAF23D6D8188A /* Pods_SwipeUpView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3405F225B376FC2C1950110 /* Pods_SwipeUpView_Tests.framework in Frameworks */,
+				A626DD53FF1021AF186ECCFB /* Pods_SwipeUpView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +84,8 @@
 				607FACD21AFB9204008FA782 /* Example for SwipeUpView */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				7A2029BCE37C66F9C051CA85 /* Pods */,
-				ABDBECF0EF811DCA27A7A1AE /* Frameworks */,
+				87DDB5D6143AA286BAAFAE81 /* Pods */,
+				AB82708D14BC1759311A7069 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,22 +151,23 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		7A2029BCE37C66F9C051CA85 /* Pods */ = {
+		87DDB5D6143AA286BAAFAE81 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7FF0A860C28E5A46DB2AF5EA /* Pods-SwipeUpView_Example.debug.xcconfig */,
-				F08144C3214C744BDB71854D /* Pods-SwipeUpView_Example.release.xcconfig */,
-				79C6A367B5F50E57F3807368 /* Pods-SwipeUpView_Tests.debug.xcconfig */,
-				036F3836292300DC17042BD5 /* Pods-SwipeUpView_Tests.release.xcconfig */,
+				D069ED344863DBF5D8C20A71 /* Pods-SwipeUpView_Example.debug.xcconfig */,
+				D7FCD2C2B2B0C42F74F960EC /* Pods-SwipeUpView_Example.release.xcconfig */,
+				2EAAE24F338D74787CFC5472 /* Pods-SwipeUpView_Tests.debug.xcconfig */,
+				72A14A9962C771606358B120 /* Pods-SwipeUpView_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		ABDBECF0EF811DCA27A7A1AE /* Frameworks */ = {
+		AB82708D14BC1759311A7069 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				780F0B54B1B6B918E9CEF62B /* Pods_SwipeUpView_Example.framework */,
-				2B5D81EE6AEDE5FCFF6FABE4 /* Pods_SwipeUpView_Tests.framework */,
+				56170295A0A16BB8E479C222 /* Pods_SwipeUpView_Example.framework */,
+				638C5369160582C7AB16A67F /* Pods_SwipeUpView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,12 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwipeUpView_Example" */;
 			buildPhases = (
-				F6EAF7F9C1A1916187986C92 /* [CP] Check Pods Manifest.lock */,
+				2B0B67AE0F0BBFFC594C2F71 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				CF042643B333BFA8DB1E8F37 /* [CP] Embed Pods Frameworks */,
-				F0451CE3A9E2593710D3D076 /* [CP] Copy Pods Resources */,
+				BBD4A5398D8ED77516C81A8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,12 +198,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SwipeUpView_Tests" */;
 			buildPhases = (
-				54EF191F7590663A30337D11 /* [CP] Check Pods Manifest.lock */,
+				7E1305D2D31F239C253A5DA6 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				1E250154E6BCF9AFB0489419 /* [CP] Embed Pods Frameworks */,
-				4179FD0A08CAA9046C139CA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,10 +225,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5KBXVWZEAX;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5KBXVWZEAX;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -280,46 +280,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E250154E6BCF9AFB0489419 /* [CP] Embed Pods Frameworks */ = {
+		2B0B67AE0F0BBFFC594C2F71 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeUpView_Tests/Pods-SwipeUpView_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4179FD0A08CAA9046C139CA1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeUpView_Tests/Pods-SwipeUpView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		54EF191F7590663A30337D11 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwipeUpView_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1305D2D31F239C253A5DA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-SwipeUpView_Tests-checkManifestLockResult.txt",
 			);
@@ -328,13 +324,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CF042643B333BFA8DB1E8F37 /* [CP] Embed Pods Frameworks */ = {
+		BBD4A5398D8ED77516C81A8B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SwipeUpView_Example/Pods-SwipeUpView_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SwipeUpView_Example/Pods-SwipeUpView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SwipeUpView/SwipeUpView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -343,40 +339,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeUpView_Example/Pods-SwipeUpView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F0451CE3A9E2593710D3D076 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwipeUpView_Example/Pods-SwipeUpView_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6EAF7F9C1A1916187986C92 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwipeUpView_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwipeUpView_Example/Pods-SwipeUpView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -535,13 +498,14 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7FF0A860C28E5A46DB2AF5EA /* Pods-SwipeUpView_Example.debug.xcconfig */;
+			baseConfigurationReference = D069ED344863DBF5D8C20A71 /* Pods-SwipeUpView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KBXVWZEAX;
 				INFOPLIST_FILE = SwipeUpView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arimobil.SwipeUpView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
@@ -550,13 +514,14 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F08144C3214C744BDB71854D /* Pods-SwipeUpView_Example.release.xcconfig */;
+			baseConfigurationReference = D7FCD2C2B2B0C42F74F960EC /* Pods-SwipeUpView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KBXVWZEAX;
 				INFOPLIST_FILE = SwipeUpView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arimobil.SwipeUpView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.2;
@@ -565,8 +530,9 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79C6A367B5F50E57F3807368 /* Pods-SwipeUpView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 2EAAE24F338D74787CFC5472 /* Pods-SwipeUpView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5KBXVWZEAX;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -586,8 +552,9 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 036F3836292300DC17042BD5 /* Pods-SwipeUpView_Tests.release.xcconfig */;
+			baseConfigurationReference = 72A14A9962C771606358B120 /* Pods-SwipeUpView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5KBXVWZEAX;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
